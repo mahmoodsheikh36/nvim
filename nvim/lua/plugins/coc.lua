@@ -1,7 +1,8 @@
 return {{
     "neoclide/coc.nvim",
+    event = "VeryLazy",
     config = function()
-        require("coc").setup({
-        })
+        -- require("coc").setup({
+        -- })
     end
 }}
